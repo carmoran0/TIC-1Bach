@@ -1,0 +1,11 @@
+# Segundo día de clase, calculador de media
+import statistics
+print("MEDIUM CALCULATUM")
+n1=int(input("Numero1: "))
+n2=int(input("Numero2: "))
+n3=int(input("Numero3: "))
+print(statistics.median([n1,n2,n3]))
+if(statistics.median([n1,n2,n3]) > 5):
+    print("aprobado")
+if(statistics.median([n1,n2,n3]) < 5):
+    print("suspendido")
