@@ -1,4 +1,4 @@
-# Segundo día de clase, calculador de media
+# Segundo (y tercer) día de clase, calculador de media
 import statistics
 
 print("MEDIUM CALCULATUM")
