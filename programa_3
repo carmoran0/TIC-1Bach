@@ -1,0 +1,17 @@
+# Tavla del 3
+def buncles():
+    nume=(int(input("Tabla del: ")))
+    for cont in range(1,10):
+        print(cont*nume)
+buncles()
+
+# BIUCLESSSSS
+def buncles():
+    nume=(int(input("Número de números: ")))
+    nume=nume+1
+    suma=0
+    for cont in range(1,nume):
+        num=(int(input("Numeros: "+ nume)))
+        suma=suma+num
+    print(suma)
+buncles()
