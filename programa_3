@@ -1,9 +1,10 @@
-# Tavla del 3
+# Tablas de multiplicar chuleta 2022 funciona actualizado legal no virus dowload pdf
 def buncles():
     nume=(int(input("Tabla del: ")))
     for cont in range(1,10):
-        print(cont*nume)
-buncles()
+        print(cont,"x",nume,"=",cont*nume)
+while True:
+    buncles()
 
 # BIUCLESSSSS
 def buncles():
@@ -11,7 +12,8 @@ def buncles():
     nume=nume+1
     suma=0
     for cont in range(1,nume):
-        num=(int(input("Numeros: "+ nume)))
+        num=(int(input("Numeros: ")))
         suma=suma+num
-    print(suma)
-buncles()
+    print("=",suma)
+while True:
+    buncles()
